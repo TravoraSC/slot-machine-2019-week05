@@ -1,0 +1,42 @@
+<!-- worked w Vonds and Mandy -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slot Machine</title>
+</head>
+<body>
+    <main>
+        <h1>Soul Search</h1>
+        <p id="instructions">Match all three numbers to ascend</p>
+
+        <h2> Energy Reserve: <span class ="totalAmount">5000</span></h2>
+
+        <form> 
+            
+            <label for="betOne"> 5 </label>
+            <input type="radio" name="bet" id="betOne" value="5" required>
+
+            <!-- make sure that the name is the same for the 2 buttons  -->
+
+            <label for="betTwo"> 50 </label>
+            <input type="radio" name="bet" id="betTwo" value ="50">
+
+            <button type="submit" class="gamble">Expend</button>
+        </form>
+    </main>
+    <section > 
+        <p class="slot box1"> </p>
+        <p class="slot box2"> </p>
+        <p class="slot box3"> </p>
+    </section> 
+    <!-- <h2 class="score"></h2>
+    <h2 class="hide">You've Ascended</h2>
+    <img class="hide" src="wings.gif"
+    <button class="hide" id="reset">Walk the Earth</button> -->
+<script src="main.js"></script>
+</body>
+</html>

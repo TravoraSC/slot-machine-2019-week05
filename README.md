@@ -2,23 +2,11 @@
 
 ### Goal: Build a Simple Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+<img width="1440" alt="slotMachineScreenshot" src="https://user-images.githubusercontent.com/102001997/165018321-4af3dc2f-ef33-48f5-9cb8-e2d80407fef6.png">
 
-### How to submit your code for review:
+This is a slot machine with 3 reels and 5 numbers on each one. I added a bit of a mystical element to make it more fun for me. 
+I made it using HTML, CSS, and JavaScript. I learned how to animate text shadow to create a glowing effect on my text. I got to practice looping with JavaScript, and I hope to add some features with a bit more time, like a way for the player to win.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
