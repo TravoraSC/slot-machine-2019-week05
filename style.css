@@ -1,0 +1,155 @@
+/* 
+.hide {
+opacity: 0%;
+}
+
+.hide {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    font-size: 7rem;
+}
+
+#reset {
+    background-color: #fadb8a8a;
+    border-radius: 44%;
+    border-color: #ca8537;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px #ca8537;
+}
+
+img {
+    margin-left: 17rem;
+} */
+
+section { 
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url(gates.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main {
+    background-image: radial-gradient(circle, #5d6d83, #7d878e1a,#c4d2d800);
+    border-radius: 53%;
+    width: min-content;
+    margin-left: 23rem;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b1c6f5, 0 0 40px #b1c6f5, 0 0 50px #b1c6f5, 0 0 60px #b1c6f5, 0 0 70px #b1c6f5;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #f5c774, 0 0 30px #f5c774, 0 0 40px #f5c774, 0 0 50px#f5c774, 0 0 60px #f5c774, 0 0 70px #597181, 0 0 80px #f5c774;
+    }
+  }
+h2, p, label {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px #ca8537;
+}
+
+#instructions {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+form {
+    text-align: center;
+    text-shadow: 2px 2px 8px #ca8537;
+    font-size: 1.75rem;
+    width: 100vh;
+}
+
+.gamble {
+    background-color: #fadb8a8a;
+    border-radius: 44%;
+    border-color: #ca8537;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px #ca8537;
+}
+
+.score {
+    margin: 0 ;
+}
+
+section {
+    margin-left: 43rem;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px #8395a7;
+}
+
+@media all and (max-width: 768px) {
+    body {
+        background-size: inherit;
+    }
+
+    main {
+        margin: 0 ;
+    }
+
+    section {
+        margin-left: 24rem;
+    }
+}
+
+@media all and (max-width: 320px) {
+    body, h1, #instructions {
+        width: 100vw;
+    }
+
+    h1 {
+        width: 100vw;
+        margin-left: 5rem;
+    }
+
+    #instructions {
+        margin-left: 5rem;
+    }
+
+    h2 {
+        margin-left: 2rem ;
+    }
+
+    .totalAmount {
+        margin-right: 15rem;
+    }
+
+    .gamble {
+        margin-right: 13rem;
+    }
+
+    section {
+        margin-left: 12rem;
+    }
+}
